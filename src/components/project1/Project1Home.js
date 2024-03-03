@@ -7,7 +7,6 @@ const Project1Home = () => {
   return (
     <div className='flex flex-col font-poppins justify-center'>
        <Project1Nav />
-       <Project1Main />
        <Project1Main2 />
     </div>
   )
