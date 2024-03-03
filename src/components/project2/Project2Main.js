@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Chart from 'react-apexcharts';
 import { TableContainer, Table, TableHead, TableBody, TableRow, TableCell, Paper } from '@mui/material';
-
+ 
 const Project2Main = () => {
   const [usageData, setUsageData] = useState({
     cpuUsage: [],
@@ -40,7 +40,8 @@ const Project2Main = () => {
       if (data.failureProbability > 0.5) {
         setFailureProbabilityExceeded(true);
         setFailureData(data.liveData);
-      } else {
+      }else{
+        setFailureProbabilityExceeded(false);
       }
 
       updateUsageData(data.liveData);
@@ -61,7 +62,7 @@ const Project2Main = () => {
   };
 
   useEffect(() => {
-    const intervalId = setInterval(fetchData, 3000); // Fetch data every 2 seconds
+    const intervalId = setInterval(fetchData, 5000); // Fetch data every 2 seconds
     return () => clearInterval(intervalId);
   }, []);
 

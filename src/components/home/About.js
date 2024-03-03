@@ -16,7 +16,7 @@ const AboutSection = () => {
           className="mb-10 w-6/7"
         >
           <Typography className="sm:text-start text-center md:text-5xl text-3xl font-poppins font-bold bg-gradient-to-l from-amber-800 to-gray-900 bg-clip-text text-transparent mb-6">
-            About Cooker
+            About Cookr
           </Typography>
           <Typography variant="body1" className="sm:text-start text-center sm:text-lg font-poppins text-xs opacity-80 font-medium text-wrap text-white mb-6">
           At Cookr, we believe that everyone deserves to enjoy delicious and healthy food, without compromising on taste or quality. We are an early-stage food tech startup on a mission to revolutionise the food industry in India by building an e-commerce marketplace that offers a wide range of healthy alternatives to restaurant-delivered food. We partner with extremely talented home cooks to bring you delicious homemade meals straight from their homes. Not only does this allow us to offer our customers an unparalleled dining experience, but it also helps to create thousands of micro-entrepreneurs in society and enables them to make a primary livelihood for their families.          </Typography>

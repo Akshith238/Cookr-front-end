@@ -18,7 +18,7 @@ const TypingText = ({ text }) => {
         whileInView={"visible"}
         variants={variants}
         transition={transition}
-        className="md:text-5xl fixed-top text-xl  object-cover sm:top-1/2 z-10 font-bold bg-gradient-to-r from-slate-800 to-gray-900 text-transparent bg-clip-text"
+        className="md:text-4xl fixed-top text-xl  object-cover sm:top-1/2 z-10 font-bold bg-gradient-to-r from-slate-800 to-gray-900 text-transparent bg-clip-text"
       >
 
         {text.split('').map((char, index) => (

@@ -15,6 +15,7 @@ const Hero = () => {
             <Carousel />
         </motion.div>
         <div className='flex w-2/3 flex-col md:gap-8 p-3 gap-1'>
+          <TypingText text="Team Chilli Flakes Welcomes You" />
           <TypingText text="Freshly Home Made Meals" />
           <div className='border-2 border-solid shadow-xl rounded-xl w-1/4'>
             <motion.div 
