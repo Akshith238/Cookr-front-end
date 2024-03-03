@@ -15,9 +15,9 @@ return (
           <Toolbar className='flex justify-between  h-24 max-w-full overflow-hidden'>
              <div className='flex flex-row items-center'>
                 <motion.img
-                src={"/images/cookr_logo.png"}
+                src={"/images/chilli_logo.png"}
                 alt="Logo"
-                className="h-60 transition-translation duration-500 hover:-translate-y-1"
+                className="h-24 transition-translation duration-500 hover:-translate-y-1"
                 initial={{  opacity: 0 }}
                 animate={{  opacity: 1 }}
                 transition={{ duration: 4, ease:"easeInOut" }}

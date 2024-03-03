@@ -16,10 +16,13 @@ const AboutSection = () => {
           className="mb-10 w-6/7"
         >
           <Typography className="sm:text-start text-center md:text-5xl text-3xl font-poppins font-bold bg-gradient-to-l from-amber-800 to-gray-900 bg-clip-text text-transparent mb-6">
-            About Cookr
+            About ChillyFlakes
           </Typography>
           <Typography variant="body1" className="sm:text-start text-center sm:text-lg font-poppins text-xs opacity-80 font-medium text-wrap text-white mb-6">
-          At Cookr, we believe that everyone deserves to enjoy delicious and healthy food, without compromising on taste or quality. We are an early-stage food tech startup on a mission to revolutionise the food industry in India by building an e-commerce marketplace that offers a wide range of healthy alternatives to restaurant-delivered food. We partner with extremely talented home cooks to bring you delicious homemade meals straight from their homes. Not only does this allow us to offer our customers an unparalleled dining experience, but it also helps to create thousands of micro-entrepreneurs in society and enables them to make a primary livelihood for their families.          </Typography>
+            Chilly Flakes is a dynamic team of software systems students from PSG Tech, adept in the realms of Full Stack Web Development and Machine Learning. Our diverse skill set, honed through rigorous academic training and hands-on experience, equips us to tackle complex challenges with confidence.
+            As participants in the Cookr Food Tech Hackathon, we bring a fresh perspective and a commitment to innovation. Our passion for technology drives us to push boundaries and explore novel solutions that bridge the gap between culinary artistry and cutting-edge technology.
+            With a focus on crafting intuitive and user-centric web applications, coupled with our ability to leverage data-driven insights through machine learning, Chilly Flakes is poised to make a significant impact in the food tech industry. We're excited to collaborate, innovate, and showcase our talents as we embark on this exciting journey         
+          </Typography>
         </motion.div>
       </Container>
       <motion.div 
