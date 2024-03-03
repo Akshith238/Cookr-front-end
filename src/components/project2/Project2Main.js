@@ -16,7 +16,7 @@ const Project2Main = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/predictFailure');
+      const response = await fetch('https://predictiserve-backend.onrender.com/api/predictFailure');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

@@ -32,7 +32,7 @@ const Project1Main = () => {
 
   const sendDataToFlask = async (data) => {
     try {
-      const response = await fetch('http://localhost:5000/api/predictFood', {
+      const response = await fetch('https://predictiserve-backend.onrender.com/api/predictFood', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
