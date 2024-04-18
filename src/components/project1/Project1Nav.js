@@ -35,7 +35,6 @@ return (
              </div>
           </Toolbar>
       </AppBar>
-  
 </div>
 )
 }
